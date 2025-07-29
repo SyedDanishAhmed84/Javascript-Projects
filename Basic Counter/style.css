@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.container {
+  background: rgb(0, 0, 185);
+  padding: 30px;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#reset-btn {
+  background-color: #e74c3c;
+  margin-left: 10px;
+}
+
+#reset-btn:hover {
+  background-color: #c0392b;
+}
+
+#decrement-btn{
+  background-color: #f39c12;
+  margin-left: 10px;
+}
+#decrement-btn:hover {
+  background-color: #d35400;
+}
