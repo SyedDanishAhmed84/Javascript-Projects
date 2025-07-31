@@ -1,0 +1,51 @@
+body{
+  background-color: black;
+  width:100%;
+display: flex;
+    justify-content: center;
+    align-items: center;   
+   height: 100vh;           
+  margin: 0;
+}
+.container{
+
+width:300px;
+align-items: center;
+    
+border-radius: 10px;
+padding: 20px;
+background-color: blue;
+}
+.container h2{
+  color:white;
+  text-align: center;
+}
+
+input{
+  width:70%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button{
+   padding: 10px 15px;
+  margin-left: 5px;
+  cursor:pointer;
+}
+button:hover{
+  background-color: rgb(1, 231, 231);
+}
+#task-list {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style-type: none;
+  color: white;
+}
+
+#task-list li {
+  margin-bottom: 10px;
+  background: #222;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
